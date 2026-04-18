@@ -1,16 +1,54 @@
-# React + Vite
+# 🌐 Frontend Static Website – React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+This project is a **frontend static website** built using **React + Vite** as part of our **FYUGP degree internship requirement** under Kannur University.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+As part of the internship program, we chose the **MERN Stack (MongoDB, Express, React, Node.js)** to develop our skills in full-stack development. This repository represents the **frontend portion** of that stack.
 
-## React Compiler
+The project focuses on building a **modern, responsive, and user-friendly interface**, following current UI/UX and performance best practices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ⚛️ React.js
+* ⚡ Vite
+* 🎨 CSS / Bootstrap
+* 🌍 Vercel (Deployment)
+
+---
+
+## 🎯 Key Features
+
+* Fully responsive design (mobile-first approach)
+* Clean and modern UI
+* Optimized performance with Vite
+* Component-based architecture
+* Easy scalability for backend integration
+
+---
+
+## 🧠 Learning Objectives
+
+This project helped us:
+
+* Understand the fundamentals of **React component architecture**
+* Work with **modern frontend tooling (Vite)**
+* Build **responsive and accessible UI**
+* Prepare for **full-stack integration (MERN stack)**
+* Gain experience in **deployment workflows**
+
+---
+
+## 🤝 Acknowledgement
+
+This project was developed as part of the **FYUGP internship program** mandated by **Kannur University**, where we selected the **MERN stack** to build practical development skills.
+
+---
+
+
+
+## 📜 License
+
+This project is for educational purposes.
