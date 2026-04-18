@@ -116,7 +116,7 @@ body {
 }
 
 .library-col {
-  min-width: 120px;
+  min-width: 0;
 }
 
 /* Footer */

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Button } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 import '../App.css'
 
 import fortnite from '../assets/Games/fornite.jpg'
@@ -52,34 +52,36 @@ function Gamelibrary() {
 
         <div className="d-flex flex-column gap-3">
           {library.map((game) => (
-            <div key={game.id} className="library-row d-flex align-items-center p-3 rounded-4">
-              <img
-                src={game.img}
-                alt={game.title}
-                className="rounded-3 me-3 library-thumb"
-              />
+            <Row key={game.id} className="library-row align-items-center p-3 rounded-4 gx-3 gy-2">
+              <Col xs="auto">
+                <img
+                  src={game.img}
+                  alt={game.title}
+                  className="rounded-3 library-thumb"
+                />
+              </Col>
 
-              <div className="me-4 library-col">
+              <Col xs={12} sm={6} md={3} className="library-col">
                 <h6 className="text-white fw-bold mb-1">{game.title}</h6>
                 <small className="text-secondary">{game.category}</small>
-              </div>
+              </Col>
 
-              <div className="me-4 library-col">
+              <Col xs={6} md={2} className="library-col">
                 <small className="text-white d-block fw-semibold">Date Added</small>
                 <small className="text-secondary">{game.dateAdded}</small>
-              </div>
+              </Col>
 
-              <div className="me-4 library-col">
+              <Col xs={6} md={2} className="library-col">
                 <small className="text-white d-block fw-semibold">Hours Played</small>
                 <small className="text-secondary">{game.hoursPlayed}</small>
-              </div>
+              </Col>
 
-              <div className="me-4 library-col">
+              <Col xs={12} sm={6} md={2} className="library-col">
                 <small className="text-white d-block fw-semibold">Currently</small>
                 <small className="text-secondary">{game.status}</small>
-              </div>
+              </Col>
 
-              <div className="ms-auto">
+              <Col xs={12} sm="auto" className="text-sm-end">
                 {game.downloaded ? (
                   <Button variant="outline-secondary" size="sm" className="rounded-pill px-3 text-secondary">
                     Downloaded
@@ -89,8 +91,8 @@ function Gamelibrary() {
                     Download
                   </Button>
                 )}
-              </div>
-            </div>
+              </Col>
+            </Row>
           ))}
         </div>
 
